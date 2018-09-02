@@ -23,3 +23,4 @@ def printer(attendees)
   batch_badge_creator(attendees) do {|persons| puts persons}
   end
 end
+end
