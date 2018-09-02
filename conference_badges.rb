@@ -21,5 +21,4 @@ end
 def printer(attendees)
   assign_rooms(attendees) do {|rooms| puts rooms}
   batch_badge_creator(attendees) do {|persons| puts persons}
-  end
 end
