@@ -4,6 +4,7 @@ end
 
 def batch_badge_creator(badges, attendees)
   return badge_maker(attendees)
+  return badges
 end
 
 def assign_rooms
