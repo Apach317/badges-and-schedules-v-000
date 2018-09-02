@@ -3,7 +3,7 @@ def badge_maker(attendees)
 end
 
 def batch_badge_creator(badges)
-  return badge_maker(attendees).each
+  return badge_maker.each
 end
 
 def assign_rooms
