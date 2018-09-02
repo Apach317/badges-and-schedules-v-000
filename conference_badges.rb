@@ -4,7 +4,6 @@ end
 
 def batch_badge_creator(badges)
   return badges.each
-  end
 end
 
 def assign_rooms
