@@ -18,6 +18,6 @@ def assign_rooms(attendees)
   return another_array
 end
 
-def printer
-  return badges
+def printer(attendees)
+  assign_rooms(attendees) do {|rooms| puts rooms}
 end
