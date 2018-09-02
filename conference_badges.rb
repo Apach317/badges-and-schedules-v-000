@@ -7,7 +7,7 @@ def batch_badge_creator(attendees)
   attendees.each do |badge|
     new_array.push("Hello, my name is #{attendees}.")
   end
-  return badge
+  return new_array
 end
 
 def assign_rooms
